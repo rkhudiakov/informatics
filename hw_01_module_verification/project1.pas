@@ -50,7 +50,10 @@ begin
            }
   WriteLn('Enter lines');
   ReadLn(L1.H.x, L1.H.y, L1.K.x, L1.K.y, L2.H.x, L2.H.y, L2.K.x, L2.K.y);
-  GetLinesIntersection (L1, L2, O);
+   if GetLinesIntersection (L1, L2, O)=true then
+     WriteLn('Lines intersect in P (',O.x:0:2,',',O.y:0:2,')')
+   else
+     WriteLn('Lines dont intersect');
   ReadLn;{
 
   WriteLn('AB=', GetDistance(Tri.A, Tri.B):0:2);

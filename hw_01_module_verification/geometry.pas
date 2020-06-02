@@ -54,13 +54,13 @@ var
     S3:= B.H;
     S4:= B.K;
     if ((S1.x-S2.x)*(S3.y-S4.y)-(S1.y-S2.y)*(S3.x-S4.x)=0) then
-      WriteLn('Lines dont intersect')
+      exit(false)
     else
       begin
          Int:= ((S1.x-S3.x)*(S3.y-S4.y)-(S1.y-S3.y)*(S3.x-S4.x))/((S1.x-S2.x)*(S3.y-S4.y)-(S1.y-S2.y)*(S3.x-S4.x));
          P.x:= S1.x+Int*(S2.x-S1.x);
          P.y:= S1.y+Int*(S2.y-S1.y);
-         WriteLn('Lines intersect in P (',P.x:0:2,',',P.y:0:2,')');
+         exit(true);
       end;
   end;
 
