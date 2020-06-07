@@ -1,0 +1,134 @@
+object Form1: TForm1
+  Left = 724
+  Height = 590
+  Top = 145
+  Width = 590
+  Caption = 'Form1'
+  ClientHeight = 590
+  ClientWidth = 590
+  OnCreate = FormCreate
+  LCLVersion = '2.0.2.0'
+  object Button1: TButton
+    Left = 160
+    Height = 50
+    Top = 448
+    Width = 120
+    Caption = 'PrintTriangle'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 288
+    Height = 50
+    Top = 448
+    Width = 120
+    Caption = 'PrintHeights'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 416
+    Height = 50
+    Top = 448
+    Width = 120
+    Caption = 'Clear'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Image1: TImage
+    Left = 8
+    Height = 378
+    Top = 8
+    Width = 576
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 15
+    Top = 408
+    Width = 18
+    Caption = 'AX:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 15
+    Top = 432
+    Width = 17
+    Caption = 'AY:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 32
+    Height = 15
+    Top = 456
+    Width = 17
+    Caption = 'BX:'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 32
+    Height = 15
+    Top = 480
+    Width = 17
+    Caption = 'BY:'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 32
+    Height = 15
+    Top = 504
+    Width = 18
+    Caption = 'CX:'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 32
+    Height = 15
+    Top = 528
+    Width = 18
+    Caption = 'CY:'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 56
+    Height = 23
+    Top = 400
+    Width = 80
+    TabOrder = 3
+  end
+  object Edit2: TEdit
+    Left = 56
+    Height = 23
+    Top = 424
+    Width = 80
+    TabOrder = 4
+  end
+  object Edit3: TEdit
+    Left = 56
+    Height = 23
+    Top = 448
+    Width = 80
+    TabOrder = 5
+  end
+  object Edit4: TEdit
+    Left = 56
+    Height = 23
+    Top = 472
+    Width = 80
+    TabOrder = 6
+  end
+  object Edit5: TEdit
+    Left = 56
+    Height = 23
+    Top = 496
+    Width = 80
+    TabOrder = 7
+  end
+  object Edit6: TEdit
+    Left = 56
+    Height = 23
+    Top = 520
+    Width = 80
+    TabOrder = 8
+  end
+end
